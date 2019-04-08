@@ -4,21 +4,22 @@ import React from "react"
 import styled from 'styled-components'
 
 const HeaderWrapper = styled.header`
-  background: #ab377e;
-  margin: 1.45rem 0;
+  background: rgba(255,255,255,0.7);
+  margin: 0;
   h1 {
     margin: 0;
+    font-size: 22px;
   }
   a {
-    color: white;
+    color: black;
     text-decoration: none;
   }
 `;
 
 const Heading = styled.div`
   margin: 0 auto;
-  max-width: 960px;
-  padding: 1.45rem 1.0875rem;
+  width: 100%;
+  padding: 20px;
 `;
 
 const Header = ({ siteTitle }) => (
